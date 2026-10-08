@@ -34,6 +34,10 @@ document.querySelectorAll(".clinic-phone").forEach(element => {
 document.querySelectorAll(".clinic-address").forEach(element => {
     element.textContent = clinicData.address;
 });
+// UPDATE EMAIL
+document.querySelectorAll(".clinic-email").forEach(element => {
+    element.textContent = clinicData.email;
+});
 // UPDATE LOCATION CODE
 document.querySelectorAll(".clinic-location-code").forEach(element => {
     element.textContent = clinicData.locationCode;

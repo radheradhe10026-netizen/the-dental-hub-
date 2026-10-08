@@ -14,7 +14,7 @@ const clinicData = {
    phone: "+91 70373 73728",
 phoneLink: "917037373728",
 whatsapp: "917037373728",
-    email: "",
+    email: "dentalhub.bly@gmail.com",
         
 
     // ADDRESS & LOCATION

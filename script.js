@@ -36,7 +36,7 @@ document.querySelectorAll(".clinic-address").forEach(element => {
 });
 // UPDATE EMAIL
 document.querySelectorAll(".clinic-email").forEach(element => {
-    element.innerHTML = '📧 ' + clinicData.email;
+    element.innerHTML = '<i class="fa-solid fa-envelope"></i> ' + clinicData.email;
 });
 // UPDATE LOCATION CODE
 document.querySelectorAll(".clinic-location-code").forEach(element => {

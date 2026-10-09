@@ -505,6 +505,21 @@ footer {
         display: block;
     }
 }
+@media (max-width: 768px) {
+    .nav-container {
+        display: flex;
+        align-items: center;
+    }
+
+    .menu-toggle {
+        margin-left: auto;
+        order: 3;
+    }
+
+    .navbar .call-btn {
+        display: none;
+    }
+}
 /* HINDI CLINIC NAME */
 .clinic-hindi-name {
     display: block;

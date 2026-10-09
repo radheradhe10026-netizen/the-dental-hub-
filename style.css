@@ -707,7 +707,19 @@ footer {
     text-decoration: none;
     font-weight: 600;
 }
-
+.doctor-facebook {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 9px;
+    background: #123f63;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    width: fit-content;
+    margin-top: 10px;
+}
 .doctor-instagram:hover {
     transform: translateY(-2px);
 }

@@ -849,3 +849,22 @@ footer {
         height: 230px;
     }
 }
+/* MOBILE NAVBAR FIX */
+@media (max-width: 768px) {
+    .nav-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-left: auto;
+        order: 2;
+        flex-shrink: 0;
+    }
+
+    .navbar .call-btn {
+        display: none !important;
+    }
+}
